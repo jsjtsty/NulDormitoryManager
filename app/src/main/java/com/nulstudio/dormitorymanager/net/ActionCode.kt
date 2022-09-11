@@ -1,0 +1,54 @@
+package com.nulstudio.dormitorymanager.net
+
+object ActionCode {
+    const val NDM_ACTS_ACCOUNT = 1
+
+    const val NDM_ACT_ACCOUNT_LOGIN = 10001
+    const val NDM_ACT_ACCOUNT_REGISTER = 10002
+    const val NDM_ACT_ACCOUNT_FETCH = 10003
+
+    const val NDM_ACT_ACCOUNT_FETCH_INVITE_CODE = 10101
+    const val NDM_ACT_ACCOUNT_ADD_INVITE_CODE = 10102
+    const val NDM_ACT_ACCOUNT_GENERATE_INVITE_CODE = 10103
+    const val NDM_ACT_ACCOUNT_REMOVE_INVITE_CODE = 10104
+    const val NDM_ACT_ACCOUNT_MODIFY_INVITE_CODE = 10105
+
+    const val NDM_ACT_ACCOUNT_GET_INFORMATION = 10201
+    const val NDM_ACT_ACCOUNT_MODIFY_PASSWORD = 10301
+    const val NDM_ACT_ACCOUNT_MODIFY_USERNAME = 10302
+    const val NDM_ACT_ACCOUNT_MODIFY_NICKNAME = 10303
+
+    const val NDM_ACTS_UPDATE = 2
+
+    const val NDM_ACT_UPDATE_FETCH_UPDATE = 20001
+    const val NDM_ACT_UPDATE_FETCH_CHANNEL_PRIORITY = 20002
+
+    const val NDM_ACTS_DORM_MGR = 3
+
+    const val NDM_ACT_DORM_QUERY = 30001
+    const val NDM_ACT_DORM_CREATE = 30002
+    const val NDM_ACT_DORM_JOIN = 30003
+
+    const val NDM_ACTS_FORUM = 4
+
+    const val NDM_ACT_FORUM_LIST_POSTS = 40001
+    const val NDM_ACT_FORUM_POST = 40002
+    const val NDM_ACT_FORUM_FETCH_POST = 40003
+    const val NDM_ACT_FORUM_COMMENT = 40004
+    const val NDM_ACT_FORUM_DELETE_POST = 40005
+    const val NDM_ACT_FORUM_DELETE_COMMENT = 40006
+
+    const val NDM_ACTS_CREDIT = 5
+
+    const val NDM_ACT_CREDIT_FETCH = 50001
+    const val NDM_ACT_CREDIT_ADD = 50002
+
+    const val NDM_ACTS_AVATAR = 6
+
+    const val NDM_ACT_AVATAR_FETCH = 60001
+    const val NDM_ACT_AVATAR_SET = 60002
+
+    const val NDM_ACTS_EXP = 7
+
+    const val NDM_ACT_EXP_FETCH = 70001
+}

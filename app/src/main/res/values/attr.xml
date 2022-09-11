@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ringLineWidth" format="dimension" />
+    <attr name="ringPositiveColor" format="color" />
+    <attr name="ringPositiveBackgroundColor" format="color" />
+    <attr name="ringLineLengthPercentage" format="float" />
+    <attr name="maxValue" format="float" />
+    <attr name="ringLineCount" format="integer" />
+    <attr name="value" format="float" />
+    <declare-styleable name="CircleSeekBar">
+        <attr name="ringLineWidth" />
+        <attr name="ringPositiveColor" />
+        <attr name="ringPositiveBackgroundColor" />
+        <attr name="ringLineLengthPercentage" />
+        <attr name="ringLineCount" />
+        <attr name="maxValue" />
+        <attr name="value" />
+    </declare-styleable>
+</resources>

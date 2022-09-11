@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_post_detail_delete"
+        android:title="@string/txt_delete" />
+    <item
+        android:id="@+id/menu_post_detail_copy_address"
+        android:title="@string/txt_copy_address" />
+</menu>

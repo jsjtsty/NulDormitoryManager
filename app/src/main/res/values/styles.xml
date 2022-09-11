@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="edit_primary">
+        <item name="android:background">@drawable/edit_primary</item>
+        <item name="android:textCursorDrawable">@drawable/csr_primary</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="edit_white">
+        <item name="android:background">@drawable/edit_white</item>
+        <item name="android:textCursorDrawable">@drawable/csr_primary</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="edit_round">
+        <item name="android:background">@drawable/edit_round</item>
+        <item name="android:textCursorDrawable">@drawable/csr_primary</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_primary_solid">
+        <item name="android:background">@drawable/btn_solid_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="button_primary_outline">
+        <item name="android:background">@drawable/btn_outline_primary</item>
+        <item name="android:textColor">@color/btn_primary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="button_round_outline">
+        <item name="android:background">@drawable/btn_outline_round</item>
+        <item name="android:textColor">@color/btn_primary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="button_round_solid">
+        <item name="android:background">@drawable/btn_solid_round</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="tab_text_appearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+</resources>

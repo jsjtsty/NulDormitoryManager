@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CreatePlanActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_create_plan_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/list_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_create_plan_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/cdp_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_back_black" />
+
+        <TextView
+            android:id="@+id/tv_create_plan_title"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/txt_create_plan"
+            android:textSize="17sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.nulstudio.dormitorymanager.component.CircleSeekBar
+        android:id="@+id/seek_create_plan_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        app:maxValue="60.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_create_plan_toolbar"
+        app:ringLineWidth="1.8dp"
+        app:value="30.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_create_plan_time"
+        app:layout_constraintEnd_toEndOf="@+id/seek_create_plan_time"
+        app:layout_constraintStart_toStartOf="@+id/seek_create_plan_time"
+        app:layout_constraintTop_toTopOf="@+id/seek_create_plan_time">
+
+        <TextView
+            android:id="@+id/tv_create_plan_hour_desp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/txt_h"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/tv_create_plan_hour"
+            app:layout_constraintStart_toEndOf="@+id/tv_create_plan_hour" />
+
+        <TextView
+            android:id="@+id/tv_create_plan_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="30"
+            android:textColor="@color/black"
+            android:textSize="58sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_create_plan_hour"
+            app:layout_constraintStart_toEndOf="@+id/tv_create_plan_hour_desp"
+            app:layout_constraintTop_toTopOf="@+id/tv_create_plan_hour" />
+
+        <TextView
+            android:id="@+id/tv_create_plan_min_desp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_m"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/tv_create_plan_hour"
+            app:layout_constraintStart_toEndOf="@+id/tv_create_plan_min" />
+
+        <TextView
+            android:id="@+id/tv_create_plan_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="58sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edit_create_plan_name"
+        style="@style/edit_primary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txt_plan_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seek_create_plan_time" />
+
+    <Button
+        android:id="@+id/btn_create_plan_ok"
+        style="@style/button_round_solid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/txt_done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

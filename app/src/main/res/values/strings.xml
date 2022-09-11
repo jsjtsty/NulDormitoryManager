@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">DormitoryManager</string>
+    <string name="cdp_welcome_bg">Welcome Background</string>
+    <string name="str_welcome_version">Version %s</string>
+    <string name="cdp_welcome_logo">Welcome Logo</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="cdp_back">Back</string>
+    <string name="txt_copyright" translatable="false">Copyright (C) NulStudio 2014-2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_user_name">User Name</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_back_login">Back to Login</string>
+    <string name="txt_invite_code">Invite Code</string>
+    <string name="err_user_not_exist">User does not exist.</string>
+    <string name="err_wrong_password">Wrong password.</string>
+    <string name="err_user_is_banned">The user is currently banned.</string>
+    <string name="err_invalid_invite_code">Invalid invite code</string>
+    <string name="err_invite_code_used_up">Invite code used up</string>
+    <string name="err_invite_code_blocked">Invite code blocked</string>
+    <string name="key_preference_file" translatable="false">com.nulstudio.dormitorymanager.PREFERENCE_FILE</string>
+    <string name="err_user_already_exist">User already exists.</string>
+    <string name="err_dorm_already_exist">Dormitory already exists.</string>
+    <string name="err_dorm_code_not_exist">Invalid code.</string>
+    <string name="txt_input_code">Input Dorm Code</string>
+    <string name="txt_code_example">e.g. 401644</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_create_dorm">Create Dorm</string>
+    <string name="txt_create_dorm_desp">Code and ID will be shown after successfully created.</string>
+    <string name="txt_input_dorm_name">Name</string>
+    <string name="txt_input_dorm_desp">Description</string>
+    <string name="txt_create_done_text">Done</string>
+    <string name="txt_create_done_join">Done</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_select_join_method">Select Join Dorm Method</string>
+    <string name="txt_A" translatable="false">A</string>
+    <string name="txt_B" translatable="false">B</string>
+    <string name="txt_join_existing_dorm">Join Existing Dormitory</string>
+    <string name="txt_copy_code">Copy Code: %s</string>
+    <string name="txt_copy_done">Copy Complete.</string>
+    <string name="txt_welcome_toast">Welcome, %s (UID: %d)</string>
+    <string name="txt_discuss_area">Discussion</string>
+    <string name="txt_main_page">Main Page</string>
+    <string name="txt_me">Me</string>
+    <string name="txt_new_post">New Post</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_content">Content</string>
+    <string name="txt_select_dorm">Select Dormitory</string>
+    <string name="txt_all_comments">All Comments</string>
+    <string name="txt_landlord_only">Lanlord Only</string>
+    <string name="txt_latest">Lastest</string>
+    <string name="txt_earliest">Earliest</string>
+    <string name="txt_view_count">View Count:</string>
+    <string name="txt_post_detail">Post Detail</string>
+    <string name="txt_time_record_text_desp">Time Remaining | %d h %d m Passed</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_copy_address">Copy Address</string>
+    <string name="txt_uid" translatable="false">UID: %d</string>
+    <string name="txt_my_copy_code">Copy Code</string>
+    <string name="txt_my_dorm">My Dormitory</string>
+    <string name="txt_manage_dorm">Manage Dormitory</string>
+    <string name="txt_manage_dorm_count">%d Members in Group</string>
+    <string name="txt_my_coins">My Coins</string>
+    <string name="txt_obtain_coins">Obtain Coins</string>
+    <string name="txt_gift_center">Gift Center</string>
+    <string name="txt_obtain_remaining">∞ Coins to Obtain Today</string>
+    <string name="txt_my_schedule">My Schedule</string>
+    <string name="txt_mid_remaining">Mid-Term</string>
+    <string name="txt_final_remaining">Final</string>
+    <string name="txt_remaining_time">%dd %dh %dm</string>
+    <string name="txt_personal_info">Personal Informaton</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_about_dorm_mgr">About Dormitory Manager</string>
+    <string name="txt_my_personal_information">Information</string>
+    <string name="tv_change_avatar">Change Avatar</string>
+    <string name="txt_priority_user">User</string>
+    <string name="txt_priority_advanced_user">Advanced User</string>
+    <string name="txt_priority_admin">Administrator</string>
+    <string name="txt_priority_banned">Banned User</string>
+    <string name="txt_level_val" translatable="false">Lv.%d</string>
+    <string name="txt_exp_demand" translatable="false">%d / %d</string>
+    <string name="txt_his_level">Level</string>
+    <string name="txt_his_info">Information</string>
+    <string name="txt_my_level">Level</string>
+    <string name="txt_my_info">My Information</string>
+    <string name="txt_user_priority">Priority</string>
+    <string name="txt_update">Update %s Available</string>
+    <string name="txt_update_size">Update Size: %dM</string>
+    <string name="txt_update_attr">New Features: %s</string>
+    <string name="txt_update_perform">Update Now</string>
+    <string name="txt_update_cancel">Dismiss Update</string>
+    <string name="txt_update_downloading">Downloading update...</string>
+    <string name="txt_update_title">DormitoryManager</string>
+    <string name="txt_update_content">Updating to version %s...</string>
+    <string name="txt_modify_user_name">Modify User Name</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_learning_schedule">Schedule</string>
+    <string name="txt_notice">Notice</string>
+    <string name="txt_more">More</string>
+    <string name="txt_member_status">Member Status</string>
+    <string name="txt_online">Online</string>
+    <string name="txt_offline">Offline</string>
+    <string name="txt_nickname">Nickname</string>
+    <string name="txt_uid_txt" translatable="false">UID</string>
+    <string name="txt_h">h</string>
+    <string name="txt_m">m</string>
+    <string name="txt_create_plan">Create Plan</string>
+    <string name="txt_plan_name">Plan Name</string>
+    <string name="txt_current_plan">Current Plan</string>
+    <string name="txt_modify_nick_name">Modify Nickname</string>
+    <string name="txt_post_reach_limit">At most %d pictures can be uploaded.</string>
+</resources>
